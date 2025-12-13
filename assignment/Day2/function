@@ -1,0 +1,17 @@
+def main(n):
+ num2=1
+ num1=0
+ sum=0
+
+ for i in range (1,n):
+   sum=num1+num2
+   print(sum)
+   num1=sum
+   num2+=1
+   i+=1
+ 
+n=int(input("Enter number="))
+main(n)
+
+
+    
