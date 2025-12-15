@@ -1,0 +1,15 @@
+a=" Hello World "
+
+print(a.upper())
+print(a.lower())
+print(a.title())
+print(a.strip())
+print(a.replace("Hello","my"))
+print(a.split())
+print(a.join("thanks"))
+print(a.find("o"))
+print(a.count("l"))
+print(a.startswith(" Hello"))
+print(a.endswith("World "))
+print(a.isdigit())
+print(a.isalpha())
