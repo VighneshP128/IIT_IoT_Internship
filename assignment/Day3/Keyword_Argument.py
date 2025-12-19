@@ -1,23 +1,18 @@
 def info(name="student"):
     print("Hello,", name)
-
-
 info("vighnesh")
 info()  
-
 
 def student_info(name, age, ID):
     print("Name:", name)
     print("Age:", age)
     print("Course ID:", ID)
 
-
-student_info(name="vighnesh",age=21,ID=66)
+student_info(name="vighnesh",age=23,ID=128)
 
 
 def add(a, b):
     return a + b
-
 def operate(func, x, y):
     return func(x, y)
 

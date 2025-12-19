@@ -1,15 +1,11 @@
 from utils.dbConnection import getBDConnection
 
-
-
-def executeQuery(query):
-
+def executeSelectQuery(query):
     connection = getBDConnection()
     cursor = connection.cursor()
     cursor.execute(query)
-  
-    connection.commit()
-
+    data = cursor.fetchall()
     cursor.close()
-
     connection.close()
+
+    return data
